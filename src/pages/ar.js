@@ -9,9 +9,19 @@ import Portfolio from '../components/ar/Portfolio'
 import Acc from "../components/ar/acc";
 import Contact from '../components/ar/contact'
 import Footer from '../components/ar/footer'
+import { Helmet } from "react-helmet-async";
 const ar = () => {
   return (
     <>
+      <Helmet>
+        <title>سوليد للتوكيلات التجارية</title>
+        <meta name="description" content="" />
+        <style type="text/css">{`
+        body {
+              direction: rtl;
+        }
+    `}</style>
+      </Helmet>
       <div className="bottom_icons">
         <a href="https://wa.me/+201221932532">
           <img src="images/whatsapp.png" alt="#" />
