@@ -9,9 +9,14 @@ import Portfolio from '../components/en/Portfolio';
 import Acc from '../components/en/acc';
 import Contact from '../components/en/contact';
 import Footer from '../components/en/footer';
+import { Helmet} from "react-helmet-async";
  const en = () => {
   return (
     <>
+      <Helmet>
+        <title>ٍSolid</title>
+        <link rel="canonical" href="https://www.tacobell.com/" />
+      </Helmet>
       <div className="bottom_icons">
         <a href="https://wa.me/+201221932532">
           <img src="images/whatsapp.png" alt="#" />
